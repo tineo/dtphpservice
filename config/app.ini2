@@ -1,0 +1,10 @@
+[application]
+app_name  = Dtodoaqui
+app_email = noreply@dotoaqui.com
+app_url   = dtodoaqui.com
+
+[database]
+db_host     = localhost
+db_name     = dtodo
+db_user     = admindbnA37s
+db_password = 4gP2XdPkSUgp

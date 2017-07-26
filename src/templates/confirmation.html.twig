@@ -1,0 +1,38 @@
+{#<link rel="stylesheet" type="text/css" href="http://www.dtodoaqui.com/site/css/estilos.css"/>#}
+<style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Muli);
+    @media screen { /* hides this rule from unsupported clients */
+        body {
+            font-family: 'Muli', arial, sans-serif !important;
+            font-size: 12px;
+            color:#666666;
+            text-decoration: none;
+        }
+        .SubTitulo{
+            color: #FF0066;
+            text-decoration: none;
+        }
+    }
+</style>
+<body>
+<p><img src="http://dtodoaqui.com/site/images/Logo.png" width="220" height="70"></p>
+<p><span class="textopeque">Que tal, <strong>{{ name }}</strong><br>
+  <br>
+  Recibe un cordial saludo por parte de todo el equipo de dtodoaqui.com y agradecemos tu iniciativa y el apoyo que nos brindas al registrarte y registrar algún lugar preferido o un negocio.<br>
+  <br>
+  Tu cuenta ha sido registrada ahora solo debes activarla haciendo clic <a href="{{ api }}/public/verify?code={{ code }}&uid={{ uid }}" class="SubTitulo">AQUÍ</a>.<br>
+  <br>
+  dtodoaqui.com es GRATIS y puedes registrar algún lugar o establecimiento. Pronto habrán más novedades.<br>
+  Recuerda que puedes mantenerte informado a través de nuestra cuenta de <a href="https://www.facebook.com/dtodoaquiapp" class="SubTitulo">Facebook</a> y hacernos tus consultas o sugerencias a nuestra cuenta de <a href="https://twitter.com/dtodoaquiapp" class="SubTitulo">Twitter</a>.<br>
+  <br>
+  Espero que disfrutes la experiencia, si te gusta la idea pasa la voz a tus amigos.<br>
+  <br>
+  Atte.<br>
+  <br>
+  Equipo dtodoaqui<br>
+  Latinoamérica<br>
+  <a href="http://www.dtodoaqui.com" class="SubTitulo">www.dtodoaqui.com</a><br>
+  <br>
+  Para mayor información puedes escribirnos a <a href="mailto:info@dtodoaqui.com" class="SubTitulo">info@dtodoaqui.com</a> o también a
+        <a href="mailto:soporte@dtodoaqui.com" class="SubTitulo">soporte@dtodoaqui.com</a></span></p>
+</body>

@@ -1,0 +1,68 @@
+{#<link rel="stylesheet" type="text/css" href="http://www.dtodoaqui.com/site/css/estilos.css"/>#}
+<style type="text/css">
+    @import url('//fonts.googleapis.com/css?family=Muli');
+    @media screen { /* hides this rule from unsupported clients */
+        body {
+            font-family: 'Muli', arial, sans-serif !important;
+            font-size: 12px;
+            color:#666666;
+            text-decoration: none;
+        }
+        .SubTitulo{
+            color: #FF0066;
+            text-decoration: none;
+        }
+    }
+</style>
+<body>
+<p><img src="http://www.dtodoaqui.com/site/images/Logo.png" width="220" height="70"></p>
+<p><span class="textopeque">Saludos, <strong>SOPORTE</strong>
+
+        Hay un usuario que desea contactarse, a continuación los datos:
+        <br/><br/>
+
+
+        <table width="343" border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td width="12" height="23" align="left" valign="middle"></td>
+                <td width="88" align="left" valign="middle" class="textopeque"><strong>Id User</strong></td>
+                <td width="10" align="left" valign="middle" class="textopeque">:</td>
+                <td width="233" align="left" valign="middle" class="SubTitulo">{{ idusuario }}</td>
+            </tr>
+            <tr>
+                <td width="12" height="23" align="left" valign="middle"></td>
+                <td width="88" align="left" valign="middle" class="textopeque"><strong>Email</strong></td>
+                <td width="10" align="left" valign="middle" class="textopeque">:</td>
+                <td width="233" align="left" valign="middle"><a href="{{ 'mailto:'~ email }}" class="SubTitulo">{{ email }}</a></td>
+            </tr>
+            <tr>
+                <td height="24" align="left" valign="middle"></td>
+                <td align="left" valign="middle" class="textopeque"><strong>Nombre</strong></td>
+                <td align="left" valign="middle" class="textopeque">:</td>
+                <td align="left" valign="middle" class="SubTitulo">{{ name }}</td>
+            </tr>
+            <tr>
+                <td height="24" align="left" valign="middle"></td>
+                <td align="left" valign="middle" class="textopeque"><strong>Asunto</strong></td>
+                <td align="left" valign="middle" class="textopeque">:</td>
+                <td align="left" valign="middle" class="SubTitulo">{{ asunto }}</td>
+            </tr>
+            <tr>
+                <td height="24" align="left" valign="middle"></td>
+                <td align="left" valign="middle" class="textopeque"><strong>Mensaje</strong></td>
+                <td align="left" valign="middle" class="textopeque">:</td>
+                <td align="left" valign="middle" class="SubTitulo">{{ mensaje }}</td>
+            </tr>
+            </tbody></table>
+
+
+
+        <br/><br/>Atte.<br/><br/>
+
+
+        Sistema dtodoaqui.com<br>
+         Latinoamérica<br>
+        <a href="http://www.dtodoaqui.com" class="SubTitulo">www.dtodoaqui.com</a><br>
+        <br>
+        Para mayor información puedes escribirnos a <a href="mailto:info@dtodoaqui.com" class="SubTitulo">info@dtodoaqui.com</a> o también a <a href="mailto:soporte@dtodoaqui.com" class="SubTitulo">soporte@dtodoaqui.com</a></span></p>
+</body>

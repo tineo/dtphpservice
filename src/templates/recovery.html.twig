@@ -1,0 +1,46 @@
+{#<link rel="stylesheet" type="text/css" href="http://www.dtodoaqui.com/site/css/estilos.css"/>#}
+<style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Muli);
+    @media screen { /* hides this rule from unsupported clients */
+        body {
+            font-family: 'Muli', arial, sans-serif !important;
+            font-size: 12px;
+            color:#666666;
+            text-decoration: none;
+        }
+        .SubTitulo{
+            color: #FF0066;
+            text-decoration: none;
+        }
+    }
+</style>
+<body>
+<p><img src="http://dtodoaqui.com/site/images/Logo.png" width="220" height="70"></p>
+<p>
+  <br/>
+  
+        Saludos, <strong>{{ name }}</strong>
+        Has enviado una solicitud de recordatorio de datos de acceso.<br/>
+        A continuación tus datos de acceso:<br/><br/>
+
+
+        Email	:	{{ email }}<br/>
+        <a href="{{ api }}/public/hiroshima?code={{ code }}&uid={{ uid }}" class="SubTitulo">Restablecer tu contraseña aqui</a><br/><br/>
+
+        Te recomendamos que cambies tu contraseña periódicamente para mayor seguridad.<br/>
+        Si tienes algún problema para acceder con los datos que te hemos brindado contéctate con nuestro equipo de soporte a
+            <a href="mailto:soporte@dtodoaqui.com" class="SubTitulo">soporte@dtodoaqui.com</a><br/><br/>
+
+        Recuerda que dtodoaqui.com es GRATIS puedes registrar y gestionar la información de tu establecimiento sin costo.<br/><br/>
+
+        dtodoaqui.com está en la web y pronto estará en tu celular.<br/>
+
+        <br/>Atte.<br/>
+          <br/>
+          Equipo dtodoaqui<br/>
+          Latinoamérica<br/>
+          <a href="http://www.dtodoaqui.com" class="SubTitulo">www.dtodoaqui.com</a><br/>
+          <br/>
+            Para mayor información puedes escribirnos a <a href="mailto:info@dtodoaqui.com" class="SubTitulo">info@dtodoaqui.com</a> o también a
+            <a href="mailto:soporte@dtodoaqui.com" class="SubTitulo">soporte@dtodoaqui.com</a></p>
+</body>
